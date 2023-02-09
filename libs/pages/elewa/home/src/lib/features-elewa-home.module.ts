@@ -12,6 +12,6 @@ import { ImpactSectionComponent } from './impact-section/impact-section.componen
     HomeHeroSectionComponent,
     ImpactSectionComponent,
   ],
-  exports: [HomePageComponent, HomeHeroSectionComponent],
+  exports: [HomePageComponent, HomeHeroSectionComponent, ImpactSectionComponent],
 })
 export class HomePageModule {}
