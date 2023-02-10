@@ -23,6 +23,7 @@
         height: 500px;
         width: 400px;
         border-radius: 20px;
+        margin-right: 20px;
     }
 
     .col8{
@@ -31,17 +32,29 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        margin-left: 70px;
     }
 
     .heading{
-        font-size: var(--elewa-group-website-font-size-heading);
-        width: 80%;
+        font-size: 40px;
+        font-weight: bold;
+        // font-size: var(--elewa-group-website-font-size-heading);
         font-family: var(--elewa-group-website-dmsans-regular);
     }
-   
+    .buttons{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+        
+    }
+   .buttons elewa-group-button-with-animation {
+    margin: 30px;
+    
+   }
 
     .left{
         padding-left: 20px;
+        font-size: 20px;
     }
 
     .right{
