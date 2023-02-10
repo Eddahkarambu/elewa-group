@@ -7,7 +7,7 @@ import { Component,Input } from '@angular/core';
 })
 export class ImpactSectionComponent {
   @Input() title1 = 'Growing capital'
-  @Input() title2 = 'Inventing cives?'
+  @Input() title2 = 'Inventing lives?'
   @Input() paragraph1 = 'Elewa is proof that growing capital and empacting lives can work well together'
   @Input() paragraph2 = 'Our group owned and managed by our founder, our employees(across our brands)our network of 56 passionate angel investors'
 
